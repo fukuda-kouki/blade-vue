@@ -1,0 +1,10 @@
+{
+  "welcome": "Laravel10 + Vue3 テストへようこそ",
+  "App" : {
+    "title": "Laravel10 + Vue3 テスト"
+  },
+  "ComponentA": {
+  "title" : "Laravel10 + Vue3 コンポーネントテスト",
+  "fetch": "フェッチ"
+  }
+}

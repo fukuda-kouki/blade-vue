@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <h1>{{ __('welcome') }}</h1>
     <div id="app"></div>
     @vite(['resources/css/app.css', 'resources/js/app.ts'])
 </body>

@@ -20,8 +20,8 @@ const fetchData = async () => {
 
 <template>
   <div>
-    <h1>Laravel10 + Vue3 Component Test</h1>
-    <button @click="fetchData">fetch</button>
+    <h1>{{ $t('messages.ComponentA.title') }}</h1>
+    <button @click="fetchData">{{$t("messages.ComponentA.fetch")}}</button>
     <div v-if="data">
       <pre>Message: {{ data.message }}</pre>
     </div>
